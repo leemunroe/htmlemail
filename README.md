@@ -62,6 +62,14 @@ Mailchimp has great tools to make it easy for you to import HTML templates.
 
 ![image](https://cloud.githubusercontent.com/assets/15963/17390732/a2d00ee6-59c4-11e6-9cdd-5a93218bec74.png)
 
+## Changelog
+
+### August 19 2016
+* Removed `display: block;` from the `container` div as it was causing issues in Gmail for iPhone [#2](https://github.com/leemunroe/htmlemail/issues/2)
+* Added explicit styles for article heading links to stop default blue being used in Outlook
+* Added an Outlook conditional statement to fix image rendering issues in Outlook 2013 120 DPI
+* Updated the `license.txt` to help clarify some questions around licensing and reselling
+
 ## More support
 
 [Create a issue](https://github.com/leemunroe/htmlemail/issues) or email hello@htmlemail.io
