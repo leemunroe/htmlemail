@@ -34,7 +34,7 @@ Option three, you can rely on your ESP (email service provider) to do the work f
 
 ## Working with images in email
 
-These emails come packages with retina ready image assets and some stock photography.
+These emails come packaged with retina ready image assets and some stock photography.
 
 ![image](https://cloud.githubusercontent.com/assets/15963/17390518/9c819732-59c2-11e6-9371-2b111ad26e8d.png)
 
