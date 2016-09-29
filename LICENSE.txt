@@ -1,0 +1,57 @@
+Copyright (c) [2016] [Lee Munroe]
+
+Last updated August 19 2016
+
+You may not redistribute or resell this software.
+
+See http://htmlemail.io for documentation and support.
+
+
+Definitions
+------------------------------------------------------------------
+
+"Item" refers to the HTML email templates.
+
+"End Product" is one of the following things:
+
+(a) The End Product is a customised implementation of the Item.
+For example: the Item is an email template and the End Product is the final email customized with your, or your client's, logo and content.
+
+(b) An End Product is a work that incorporates the Item as well as other things, so that it is larger in scope and different in nature than the Item.
+For example: the Item is an email template and the end product is a web application.
+
+
+Single Application License
+------------------------------------------------------------------
+
+Your use of the Item is restricted to a single commercial End Product.
+You may use the Item in work which you are creating for your own purposes or for your client.
+You may use the Item for multiple personal projects.
+You must not incorporate the Item in a work which is created for redistribution or resale by you or your client.
+The Item may not be redistributed or resold.
+If the Item contains licensed components, those components must only be used within the item and you must not extract and use them on a stand-alone basis. Note that the example photographs used are from Unsplash, licensed under Creative Commons Zero (https://unsplash.com/license).
+
+
+Multiple Applications License
+------------------------------------------------------------------
+
+Your use of the Item may extend to multiple commercial End Products.
+You may use the Item in work which you are creating for your own purposes or for your clients.
+You must not incorporate the Item in a work which is created for redistribution or resale by you or your clients.
+The Item may not be redistributed or resold.
+If the Item contains licensed components, those components must only be used within the item and you must not extract and use them on a stand-alone basis. Note that the example photographs used are from Unsplash, licensed under Creative Commons Zero (https://unsplash.com/license).
+
+
+Extended License
+------------------------------------------------------------------
+
+This license must be purchased if you intend to license, sublicense, redistribute, or resell the final product.
+
+Your use of the item may extend to multiple commercial End Products.
+You may use the item in work which you are creating for your own purposes or for your clients.
+You may license, sublicense, redistribute, or resell the item in the following circumstances:
+  the item is incorporated into a larger work you have created; or
+  if you modify the item and resell the end product.
+If the item contains licensed components, those components must only be used within the item and you must not extract and use them on a stand-alone basis. Note that the example photographs used are from Unsplash, licensed under Creative Commons Zero (https://unsplash.com/license).
+
+Please contact hello@htmlemail.io for more information regarding the extended license.
