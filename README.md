@@ -66,7 +66,7 @@ Mailchimp has great tools to make it easy for you to import HTML templates.
 
 ### January 16 2017
 * Added better support for ordered and unordered bullet lists
-* Fixed a receipt table alignment in versions of Outlook by introducing a `receipt-container` element and class
+* Fixed a receipt table alignment issue in versions of Outlook by introducing a `receipt-container` element and class - wrap the receipt table with this container to ensure it is centered in Outlook
 * Updated the Instagram and Google Play store icons
 
 ### August 19 2016
