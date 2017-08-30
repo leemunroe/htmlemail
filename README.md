@@ -16,9 +16,9 @@ How to try out these email templates as quickly as possible.
 
 ## Working with inline CSS
 
-These emails come packaged with both inlined CSS and a CSS stylesheet.
+These emails come packaged with inlined CSS templates, embedded CSS templates and an external CSS stylesheet.
 
-![image](https://cloud.githubusercontent.com/assets/15963/17390151/353c0312-59bf-11e6-86ba-4761a85cf555.png)
+![image](https://user-images.githubusercontent.com/15963/29856247-7229a2e0-8d06-11e7-9609-4bbe6d5b5c17.png)
 
 CSS stylesheets are great for ensuring all your emails are consistent as you can manage styles in one place.
 
@@ -28,7 +28,7 @@ However, before you send your HTML email, you need to inline the CSS as some ema
 
 Option one is to use the templates that are already inlined, and continue to write any new styles inline. But as mentioned these are harder to work with as it is harder to maintain your styles.
 
-Option two is to use an inline CSS tool. Copy and paste your email into an inliner and it will inline the CSS for you. I like using [Premailer](http://premailer.dialect.ca/). Putsmail, Zurb, Campaign Monitor and Mailchimp all have good inliner tools.
+Option two is to use an inline CSS tool. Copy and paste your email into our [CSS inliner](http://htmlemail.io/inline) and it will inline the CSS for you.
 
 Option three, you can rely on your ESP (email service provider) to do the work for you. For example, you can set Mailchimp to automatically inline CSS for you before sending your campaign.
 
@@ -62,7 +62,17 @@ Mailchimp has great tools to make it easy for you to import HTML templates.
 
 ![image](https://cloud.githubusercontent.com/assets/15963/17390732/a2d00ee6-59c4-11e6-9cdd-5a93218bec74.png)
 
+[Check out our blog](http://htmlemail.io/blog) for more setup tutorials.
+
 ## Changelog
+
+### August 29 2017
+* Added new ecommerce promotional template
+* Added new RSS to email news template
+* Added embedded CSS versions to the pack for each template
+* Added a more bullet proof horizontal rule solution that works in Outlook
+* Modified license changing "multi license" to "unlimited license"
+* Removed `width: auto !important` from `.container` style which was affecting Outlook when left as embedded CSS
 
 ### January 16 2017
 * Added better support for ordered and unordered bullet lists
