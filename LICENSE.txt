@@ -1,6 +1,6 @@
 Copyright (c) [2016] [Lee Munroe]
 
-Last updated August 19 2016
+Last updated August 29 2017
 
 You may not redistribute or resell this software.
 
@@ -32,7 +32,7 @@ The Item may not be redistributed or resold.
 If the Item contains licensed components, those components must only be used within the item and you must not extract and use them on a stand-alone basis. Note that the example photographs used are from Unsplash, licensed under Creative Commons Zero (https://unsplash.com/license).
 
 
-Multiple Applications License
+Unlimited Applications License
 ------------------------------------------------------------------
 
 Your use of the Item may extend to multiple commercial End Products.
