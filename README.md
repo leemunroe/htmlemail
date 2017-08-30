@@ -18,7 +18,7 @@ How to try out these email templates as quickly as possible.
 
 These emails come packaged with inlined CSS templates, embedded CSS templates and an external CSS stylesheet.
 
-![image](https://user-images.githubusercontent.com/15963/29856247-7229a2e0-8d06-11e7-9609-4bbe6d5b5c17.png)
+<img src="https://user-images.githubusercontent.com/15963/29856247-7229a2e0-8d06-11e7-9609-4bbe6d5b5c17.png" width="300">
 
 CSS stylesheets are great for ensuring all your emails are consistent as you can manage styles in one place.
 
