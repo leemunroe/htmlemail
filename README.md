@@ -66,6 +66,10 @@ Mailchimp has great tools to make it easy for you to import HTML templates.
 
 ## Changelog
 
+### June 27 2018
+* Adjust all spacing to a 8px base
+* Remove capital "M" from `margin` as no longer needed as fix for Outlook
+
 ### August 29 2017
 * Added new ecommerce promotional template
 * Added new RSS to email news template
