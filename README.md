@@ -6,7 +6,7 @@ For bugs and problems please [create a new issue here](https://github.com/leemun
 
 How to try out these email templates as quickly as possible.
 
-1. Go to [HTMLemail.io](http://htmlemail.io) and download the templates.
+1. Go to [HTMLemail.io](https://htmlemail.io) and download the templates.
 2. Unzip `htmlemail.zip`. You should now have files that look like [this](https://cloud.githubusercontent.com/assets/15963/17390151/353c0312-59bf-11e6-86ba-4761a85cf555.png).
 3. Open up [PutsMail](https://putsmail.com/tests/new) and create a new test email. Enter your email as the recipient.
 4. Open up one of the inlined emails `alert-success-inlined.html` in your favorite editor. Copy and paste the code into PutsMail like [this](https://cloud.githubusercontent.com/assets/15963/17390249/1a40e266-59c0-11e6-8018-6b7dbbb9a206.png).
@@ -28,7 +28,7 @@ However, before you send your HTML email, you need to inline the CSS as some ema
 
 Option one is to use the templates that are already inlined, and continue to write any new styles inline. But as mentioned these are harder to work with as it is harder to maintain your styles.
 
-Option two is to use an inline CSS tool. Copy and paste your email into our [CSS inliner](http://htmlemail.io/inline) and it will inline the CSS for you.
+Option two is to use an inline CSS tool. Copy and paste your email into our [CSS inliner](https://htmlemail.io/inline) and it will inline the CSS for you.
 
 Option three, you can rely on your ESP (email service provider) to do the work for you. For example, you can set Mailchimp to automatically inline CSS for you before sending your campaign.
 
@@ -58,11 +58,11 @@ Mailchimp has great tools to make it easy for you to import HTML templates.
 
 1. Zip up your email template. You should include one html file, your `main.css` file and your `img` folder.
 1. Open up `Templates`, click `New Template` and select `Import zip`. Select your zip file and give it a name. [Screenshot](https://cloud.githubusercontent.com/assets/15963/17390732/a2d00ee6-59c4-11e6-9cdd-5a93218bec74.png).
-2. If your zip file was set up right, that should be it. Now use Mailchimp's [templating language](http://templates.mailchimp.com/getting-started/template-language/) and [merge tags](http://templates.mailchimp.com/getting-started/merge-tags/) to customize your template.
+2. If your zip file was set up right, that should be it. Now use Mailchimp's [templating language](http://templates.mailchimp.com/getting-started/template-language/) and [merge tags](https://templates.mailchimp.com/getting-started/merge-tags/) to customize your template.
 
 ![image](https://cloud.githubusercontent.com/assets/15963/17390732/a2d00ee6-59c4-11e6-9cdd-5a93218bec74.png)
 
-[Check out our blog](http://htmlemail.io/blog) for more setup tutorials.
+[Check out our blog](https://htmlemail.io/blog/) for more setup tutorials.
 
 ## Changelog
 
