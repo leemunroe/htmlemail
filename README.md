@@ -1,4 +1,4 @@
-# How to use email templates from HTMLemail.io
+# How to use email templates from [htmlemail.io](https://htmlemail.io)
 
 For bugs and problems please [create a new issue here](https://github.com/leemunroe/htmlemail/issues).
 
@@ -6,10 +6,10 @@ For bugs and problems please [create a new issue here](https://github.com/leemun
 
 How to try out these email templates as quickly as possible.
 
-1. Go to [HTMLemail.io](https://htmlemail.io) and download the templates.
+1. Go to [htmlemail.io](https://htmlemail.io) and download the templates.
 2. Unzip `htmlemail.zip`. You should now have files that look like [this](https://cloud.githubusercontent.com/assets/15963/17390151/353c0312-59bf-11e6-86ba-4761a85cf555.png).
-3. Open up [PutsMail](https://putsmail.com/tests/new) and create a new test email. Enter your email as the recipient.
-4. Open up one of the inlined emails `alert-success-inlined.html` in your favorite editor. Copy and paste the code into PutsMail like [this](https://cloud.githubusercontent.com/assets/15963/17390249/1a40e266-59c0-11e6-8018-6b7dbbb9a206.png).
+3. Open up [Postdrop](https://postdrop.io) and create a new test email. Enter your email as the recipient.
+4. Open up one of the inlined or embedded emails e.g. `alert-success-inlined.html` in your favorite editor. Make any copy changes you want to make. Copy and paste the code into Postdrop. Hit send.
 5. Check your inbox to see a [preview of your email](https://cloud.githubusercontent.com/assets/15963/17390295/a9af54f0-59c0-11e6-9959-2ca4ba294621.png).
 
 🎉
@@ -32,6 +32,17 @@ Option two is to use an inline CSS tool. Copy and paste your email into our [CSS
 
 Option three, you can rely on your ESP (email service provider) to do the work for you. For example, you can set Mailchimp to automatically inline CSS for you before sending your campaign.
 
+### Working with Sass/SCSS
+
+If you purchased the pack with the original SCSS source files, you can make use of the special features [Sass](https://sass-lang.com/) has to offer.
+
+* Install Sass on your system `npm install -g sass` or `brew install sass/sass/sass`
+* In the `htmlemail` directory run the command `sass --watch scss/main.scss:main.css`
+
+This will watch the `scss` folder for changes and when you update a file will compile the SCSS to `main.css`.
+
+You can also use a [task runner](https://github.com/leemunroe/grunt-email-workflow) to help you automate the Sass compiling and inlining.
+
 ## Working with images in email
 
 These emails come packaged with retina ready image assets and some stock photography.
@@ -45,11 +56,11 @@ The good news is if you're using an ESP like Mailchimp, Campaign Monitor, Salesf
 For example, I've uploaded my logo to a CDN. In the header here I would replace `img/logo.png` with my logo's full CDN path.
 
 ```html
-<img src="img/logo.png">
+<img src="img/logo.png" alt="Useful alt text" width="200" height="40" border="0">
 ```
 
 ```html
-<img src="http://1bb070fe7102b70b7b9b-8d9a58972604befd3cf8b483887bb2bb.r27.cf2.rackcdn.com/img/logo.png">
+<img src="http://1bb070fe7102b70b7b9b-8d9a58972604befd3cf8b483887bb2bb.r27.cf2.rackcdn.com/img/logo.png" alt="Useful alt text" width="200" height="40" border="0">
 ``` 
 
 ## Working with Mailchimp (and other ESPs)
@@ -65,6 +76,10 @@ Mailchimp has great tools to make it easy for you to import HTML templates.
 [Check out our blog](https://htmlemail.io/blog/) for more setup tutorials.
 
 ## Changelog
+
+### June 25 2019
+* Added source SCSS files to unlimited license pack
+* Added styles for Samsumg mobile that stops numbers turning into links
 
 ### June 27 2018
 * Adjust all spacing to a 8px base
