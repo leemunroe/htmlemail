@@ -77,6 +77,16 @@ Mailchimp has great tools to make it easy for you to import HTML templates.
 
 ## Changelog
 
+### November 29 2023
+* Accessibility: default font size changes to 16px
+* Accessibility: added `role=presentation` to tables so screen readers know tables are for layout purposes
+* Accessibility: changed default color values for improved contrast
+* Design: updated to a more modern default color palette
+* Design: added rounded corners and spacing to reflect modern design trends
+* Assets: added social icons for X and Threads, and updated Twitter, Facebook, YouTube, Instagram, LinkedIn, Pinterest,
+* Assets: added app store images for Microsoft, and updated Apple, Google, Amazon
+* Sass (Developer Edition): cleaned up variables so all colors, type, spacing, borders are using tokens
+
 ### June 25 2019
 * Added source SCSS files to unlimited license pack
 * Added styles for Samsumg mobile that stops numbers turning into links
