@@ -77,6 +77,9 @@ Mailchimp has great tools to make it easy for you to import HTML templates.
 
 ## Changelog
 
+### December 15 2023
+* Accessibility: Added `lang=en` to HTML tags
+
 ### November 29 2023
 * Accessibility: default font size changes to 16px
 * Accessibility: added `role=presentation` to tables so screen readers know tables are for layout purposes
